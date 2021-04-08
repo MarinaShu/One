@@ -4,6 +4,8 @@
 }
 .text
 {
+    margin-top: 60px;
+    margin-bottom: 90px;
     font-family: 'Crete Round', serif;;
     font-style: normal;
     font-weight: normal;
@@ -28,6 +30,8 @@
 }
 .main_text
 {
+    margin-top: 36px;
+    margin-bottom: 48px;
     max-width: 497px;
     font-family: 'Lato', sans-serif;;
     font-style: normal;
@@ -99,6 +103,7 @@
 
 .photo
 {
+    margin-top: 28px;
     width: 717px;
     height: 569px;
     left: 451px;
