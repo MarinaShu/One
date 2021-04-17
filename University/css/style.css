@@ -1,0 +1,75 @@
+/*
+*
+{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+.top_block
+{
+    background-image: url('../images/brydon.jpg');
+    background-size: cover;
+    height: 977px;
+
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 86px;
+    align-items: center;
+}
+
+.text
+{
+max-width: 801px;
+padding-left: 120px;
+padding-top: 293px;
+
+}
+
+.menu_link
+{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 40px;
+text-decoration: none;
+}
+
+.text_title
+{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 90px;
+line-height: 110%;
+color: #FFFFFF;
+}
+
+.menu_text
+{
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 23.4848px;
+line-height: 121.19%;
+color: #FFFFFF;
+display: flex;
+}
+
+/*
+.arrow
+{
+    background: url('../images/Arrow.svg');
+}
+*/
