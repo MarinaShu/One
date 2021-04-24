@@ -74,3 +74,58 @@ align-items: center
     height: 18px;
     width: 21px;
 }
+
+.box
+{
+    display: flex;
+    justify-content: space-between;
+    background: #F8F8F8;
+    height: 430px;
+    align-items: center;
+    padding-left: 171px;
+    padding-right: 170px;
+}
+
+.mailing
+{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 110%;
+    color: #000000;
+    max-width: 585px;
+}
+
+.frame
+{
+    width: 441px;
+    height: 65px;
+    background: #fff;
+    font-family: Open Sans;
+    font-size: 20px;
+    background: #FFFFFF;
+    border: 1.34888px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 5.39553px;
+    padding: 21.5821px 26.9776px;
+}
+
+.button
+{
+    padding: 21.5821px 40.4665px;
+    background: #003BD1;
+    border-radius: 5.39553px;
+    font-family: Open Sans;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 22px;
+    border: 0;
+    font-size: 20px;
+}
+
+.form
+{
+    display: flex;
+    justify-content: flex-start;
+}
