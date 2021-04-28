@@ -25,18 +25,20 @@
         </div>
         <img src="img/done.svg" alt="done" class="done">
     </div>
-    <section class="grid_black">
-        <div class="icon">
-            <img src="img/time.svg" alt="time">
-            <p>Для тех, у кого слишком много <br> идей и слишком мало времени</p>
-        </div>
-        <div class="icon">
-            <img src="img/book.svg" alt="book">
-            <p>Метод «списка не дел», который <br> позволит успевать и реализовывать</p>
-        </div>
-        <div class="icon">
-            <img src="img/target.svg" alt="target">
-            <p>Курс научит творческих людей сосредоточиваться</p>
+    <section class="black_one">
+        <div class="grid_black">
+            <div class="icon">
+                <img src="img/time.svg" alt="time">
+                <p>Для тех, у кого слишком много <br> идей и слишком мало времени</p>
+            </div>
+            <div class="icon">
+                <img src="img/book.svg" alt="book">
+                <p>Метод «списка не дел», который <br> позволит успевать и реализовывать</p>
+            </div>
+            <div class="icon">
+                <img src="img/target.svg" alt="target">
+                <p>Курс научит творческих людей сосредоточиваться</p>
+            </div>
         </div>
     </section>
     <section class="picture">
@@ -55,68 +57,55 @@
             <img src="img/blowing.svg" alt="Mind blowing" class="picture_image">
         </div>
     </section>
-    <section class="grid">
-        <div class="heading_box">
-            <h2 class="picture_heading">На курсе ты <span class="colortext">сможешь</span></h2>
-        </div>
-        <div class="grid_box">
-            <div class="grid_box">
-                <div class="box">
+    <section>
+        <h2 class="picture_heading">На курсе ты <span class="colortext">сможешь</span></h2>
+        <div class="grid">
+            <div class="grid_cell">
                     <img src="img/one.svg" alt="1">
                     <p class="box_text">Понять, что нужно делать, а что делать не стоит.</p>
-                </div>
             </div>
-            <div class="grid_box">
-                <div class="box">
+            <div class="grid_cell">
                     <img src="img/two.svg" alt="2">
                     <p class="box_text">Перестать себя искусственно ограничивать.</p>
-                </div>
             </div>
-            <div class="grid_box">
-                <div class="box">
+            <div class="grid_cell">
                     <img src="img/three.svg" alt="3">
                     <p class="box_text">Определить сильные стороны и начать использовать слабые.</p>
-                </div>
             </div>
-            <div class="grid_box">
-                <div class="box">
+            <div class="grid_cell">
                     <img src="img/four.svg" alt="4">
                     <p class="box_text">Научиться достигать любой цели <br> в 3 понятных шага.</p>
-                </div>
             </div>
-            <div class="grid_box">
-                <div class="box">
+            <div class="grid_cell">
                     <img src="img/five.svg" alt="5">
                     <p class="box_text">Сотрудничать эффективно <br> и с правильными людьми.</p>
-                </div>
             </div>
-            <div class="grid_box">
-                <div class="box">
+            <div class="grid_cell">
                     <img src="img/six.svg" alt="6">
                     <p class="box_text">Оптимизировать общение с клиентами и проведение совещаний.</p>
-                </div>
             </div>
         </div>
     </section>
     <section class="need">
         <h2 class="picture_heading black">Единственное, <br>что нужно <span class="colortext">сделать</span></h2>
-        <form action="php/hander.php" method="get" class="form">
-            <input type="text" name="name" placeholder="Ваше имя" class="frame">
-            <input type="text" name="email" placeholder="Email" class="frame">
-            <select name="activities" class="frame">
-                <option  value="hide" class="hide">Деятельность</option>
-                <option value="programmer" class="list">Программист</option>
-                <option value="designer" class="list">Дизайнер</option>
-                <option value="marketer" class="list">Маркетолог</option>
-            </select>
-            <button type="submit" class="button">Записаться на курс</button>
-        </form>
-        <form action="php/hander.php" method="get" class="checkbox">
-            <input type="checkbox" class="custom-checkbox" id="consent" name="consent" value="yes">
-            <label for="consent">Согласен получать информационные материалы о старте курса</label>
-        </form>
+            <form action="php/hander.php" method="get" class="form">
+                <label>
+                    <input type="text" name="name" placeholder="Ваше имя" class="frame">
+                    <input type="text" name="email" placeholder="Email" class="frame">
+                    <select name="activities" class="frame">
+                        <option  value="hide" class="hide">Деятельность</option>
+                        <option value="programmer" class="list">Программист</option>
+                        <option value="designer" class="list">Дизайнер</option>
+                        <option value="marketer" class="list">Маркетолог</option>
+                    </select>
+                </label>
+                <button type="submit" class="button">Записаться на курс</button>
+            </form>
+            <form action="php/hander.php" method="get" class="checkbox">
+                <input type="checkbox" class="custom-checkbox" id="consent" name="consent" value="yes">
+                <label for="consent">Согласен получать информационные материалы о старте курса</label>
+            </form>
     </section>
-
     <section class="face">
         <img src="img/faсe.jpg" alt="photo">
         <h3 class="name">Дональд Рос</h3>
