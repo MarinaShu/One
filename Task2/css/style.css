@@ -1,46 +1,35 @@
 body
 {
-    position: relative;
-}
-.content_wrapper
-{
-    margin-left: 88px;
-    margin-top: 60px;
-    width: 1440px;
+    max-width: 1440px;
+    padding-left: 200px;
+    margin: auto;
 }
 
-.logo
+.menu
 {
-    margin-right: 400px;
-    width: 60px;
-    height: 43px;
-}
-
-.menu_item
-{
-    list-style: none;
     display: inline-block;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
+    float: right;
+    vertical-align: middle;
+    margin-right: 302.5px;
+}
+
+.header
+{
+    margin: 60px -112px;
 }
 
 .menu_link
 {
     margin: 0 20px;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    color: #060C31;
+    font: bold normal 13px 'Lato', sans-serif;
+    link: #060C31;
     display: inline-block;
 }
 
 .layer_content
 {
     vertical-align: middle;
-    padding-left: 200px;
     float: left;
     width: 449px;
 }
@@ -48,11 +37,7 @@ body
 .content_title
 {
     margin-top: 100px;
-    font-family: 'Crete Round', serif;;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 58px;
-    line-height: 64px;
+    font:normal 58px/64px 'Crete Round', serif;;
     color: #060C31;
 }
 
@@ -61,11 +46,7 @@ body
     margin-top: 42px;
     margin-bottom: 76px;
     max-width: 436px;
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 28px;
+    font: normal 15px/28px 'Lato', sans-serif;
     letter-spacing: 0.75px;
     color: #060C31;
 }
@@ -73,10 +54,7 @@ body
 .button
 {
     border-radius: 50px;
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
+    font: normal bold 15px 'Lato', sans-serif;
     padding: 16px 36px;
     text-decoration: none;
 }
@@ -97,28 +75,12 @@ body
 
 .clipart
 {
-    width: 791px;
     float: left;
-    height: 569px;
-    left: 451px;
-    top: 631px;
-    margin-left: 50px;
-}
-
-.content.footer
-{
-    width: 1440px;
+    margin-left: 80px;
+    margin-bottom: 110px;
 }
 
 .footer
 {
-    position: absolute;
-    width: 1440px;
-    top: 771px;
-    left: 548px;
-}
-
-.footer_logos
-{
-    margin-right: 100px;
+    padding-left: 80px;
 }
