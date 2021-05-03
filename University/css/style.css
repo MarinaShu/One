@@ -9,8 +9,22 @@
     background-image: url('../images/brydon.jpg');
     background-size: cover;
     height: 977px;
-
 }
+
+.logo
+{
+	opacity:0;
+	transform: 	translateY(50px);
+	transition: opacity 0.5s ease-out 0.5s,
+	            transform 0.5s ease-out 0.5s;
+}
+
+.loaded .logo
+{
+	opacity:1;
+	transform: 	translateY(0);
+}
+
 
 .header
 {
@@ -41,6 +55,16 @@ order: 0;
 flex-grow: 0;
 margin: 0 40px;
 text-decoration: none;
+	opacity:0;
+	transform: 	translateY(50px);
+	transition: opacity 1s ease-out 1s,
+	            transform 1s ease-out 1s;
+}
+
+.loaded .menu_link
+{
+	opacity:1;
+	transform: 	translateY(0);
 }
 
 .text_title
@@ -71,6 +95,15 @@ align-items: center
     background: url('../images/Arrow.svg');
     height: 18px;
     width: 21px;
+}
+.arrow:hover
+{
+	padding-right:2px;
+}
+
+.arrow:hover::aftre
+{
+	left:3px;
 }
 
 .training_h4
@@ -240,6 +273,17 @@ align-items: center
     margin-left: 22px;
     border: 0;
     font-size: 20px;
+	}
+	
+.button:hover
+{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background:#0040E5;
+	}
+
+.button:active
+{
+	background:#0032B2;
 }
 
 .footer
